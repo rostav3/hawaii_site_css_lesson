@@ -1,26 +1,12 @@
+@import "globals.css";
+
 html, body {
     margin: 0;
     font-family: Calibri, serif;
 }
 
 .img-top{
-    width: 100%;
-    height: 450px;
     background-image: url("../assets/background.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.title{
-    font-size: 80px;
-    font-weight: bold;
-    margin: 0 auto;
-    width: fit-content;
-    width: -moz-fit-content;
-    width: max-content;
-    padding-top: 140px;
-    color: white;
-    text-shadow: 1px 1px 1px black;
 }
 
 .topics{
@@ -97,20 +83,12 @@ html, body {
     background-image: url("../assets/asset-3.jpg");
 }
 
-footer{
-    height: 100px;
-    font-size: 30px;
-    font-weight: bold;
+.img-link{
     color: white;
-    background-color: rgba(41, 41, 41, 0.79);
-    display: table;
-    width: 100%;
+    text-decoration: none;
 }
-
-footer p{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+.img-link:focus{
+    outline: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -142,15 +120,7 @@ footer p{
         font-size: 35px;
     }
 
-    .img-top{
-        height: 350px;
-    }
-    .title{
-        padding-top: 120px;
-        font-size: 60px;
-    }
     .topics{
         margin: 50px 0;
-
     }
 }

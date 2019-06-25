@@ -1,0 +1,68 @@
+@import "globals.css";
+.img-1{
+    background-image: url("../assets/maui-1.jpg");
+}
+.img-2{
+    background-image: url("../assets/maui-2.jpg");
+}
+.img-3{
+    background-image: url("../assets/maui-3.jpg");
+}
+.article-img{
+    border-radius: 50px;
+    background-position: center;
+    height: 500px;
+}
+
+.article-container{
+    display: table;
+    height: 100%;
+}
+.article-content{
+    display: table-cell;
+    vertical-align: middle;
+    height: fit-content;
+    height: max-content;
+}
+.row{
+    height: 500px;
+    margin: 50px 0;
+
+}
+.img-top{
+    background-image: url("../assets/maui-background.jpeg");
+    height: 600px;
+}
+.title{
+    padding-top: 250px;
+}
+.container{
+    padding: 50px 0;
+    background-color: #ffffff5c;
+}
+main{
+    background-color: #ececec;
+}
+@media screen and (max-width: 1000px) {
+    .article-content h1 {
+            font-size: 30px;
+    }
+    .article-content p {
+        font-size: 14px;
+    }
+}    
+@media screen and (max-width: 800px) {
+    .container{
+        max-width: 100%;
+    }
+    .article-img{
+        border-radius: 0;
+        height: 400px;
+    }
+    .row{
+        height: fit-content;
+    }
+    .img-container{
+        order: 2;
+    }    
+}
