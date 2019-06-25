@@ -2,7 +2,10 @@ html, body {
     margin: 0;
     font-family: Calibri, serif;
 }
-
+header{
+    position: fixed;
+    width: 100%;
+}
 footer{
     height: 100px;
     font-size: 30px;

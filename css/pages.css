@@ -1,4 +1,5 @@
 @import "globals.css";
+
 .img-1{
     background-image: url("../assets/maui-1.jpg");
 }
@@ -11,6 +12,7 @@
 .article-img{
     border-radius: 50px;
     background-position: center;
+    background-size: cover;
     height: 500px;
 }
 
@@ -35,6 +37,8 @@
 }
 .title{
     padding-top: 250px;
+    width: 100%;
+    text-align: center;
 }
 .container{
     padding: 50px 0;
@@ -42,6 +46,10 @@
 }
 main{
     background-color: #ececec;
+}
+.nav-link{
+    font-weight: bold;
+    color: rgba(255,255,255,0.8);
 }
 @media screen and (max-width: 1000px) {
     .article-content h1 {
