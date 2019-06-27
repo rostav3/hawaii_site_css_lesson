@@ -1,5 +1,7 @@
 @import "globals.css";
-
+header{
+    z-index: 1;
+}
 .img-1{
     background-image: url("../assets/maui-1.jpg");
 }
@@ -47,10 +49,19 @@
 main{
     background-color: #ececec;
 }
-.nav-link{
-    font-weight: bold;
-    color: rgba(255,255,255,0.8);
+nav{
+    background-color: #00000096;
 }
+.nav-link{
+    color: rgba(255,255,255,0.8) !important;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+}
+.navbar-dark .navbar-toggler:focus{
+    outline: none;
+}
+
 @media screen and (max-width: 1000px) {
     .article-content h1 {
             font-size: 30px;
