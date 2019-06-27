@@ -31,7 +31,7 @@ header{
 .row{
     height: 500px;
     margin: 50px 0;
-
+    justify-content: center;
 }
 .img-top{
     background-image: url("../assets/maui-background.jpeg");
@@ -61,6 +61,21 @@ nav{
 }
 .navbar-dark .navbar-toggler:focus{
     outline: none;
+}
+.carousel{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.card {
+    margin:20px;
+    width: 28%;
+}
+.cards-row{
+    height: inherit;
+}
+.honeymoon-article{
+    padding: 30px;
 }
 
 @media screen and (max-width: 1000px) {
